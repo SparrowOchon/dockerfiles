@@ -61,16 +61,17 @@ From the terminal run
 ```bash
 chmod 755 docker/app/public
 sudo chown -R 1500:1500 docker/app
+sudo apt-get instal phantomjs
 ```
 
 ### Note for people running the container locally on their PC ###
 
 If you are running the container locally, then the container will need to resolve the host, to support this you will want to insert your LAN IP address and the host name in the hosts file located in ```config/hosts```
 
-For example, lets say your APP_URL is ```http://in5.test:8000``` and your LAN IP is 192.168.0.124 the hosts file will have an entry looking like this:
+For example, lets say your APP_URL is ```http://in.localhost:8003``` and your LAN IP is `192.168.0.124` the hosts file will have an entry looking like this:
 
 
-```192.168.0.124 in5.test```
+```192.168.0.124 in.localhost```
 
 **Please note that for PDF generation using local host, your domain name MUST end in .test for your PDFs to generate correctly, this is a DNS resolver issue with chromium.
 
