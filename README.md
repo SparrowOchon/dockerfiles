@@ -61,7 +61,7 @@ From the terminal run
 ```bash
 chmod 755 docker/app/public
 sudo chown -R 1500:1500 docker/app
-sudo apt-get instal phantomjs
+sudo apt-get install phantomjs
 ```
 
 ### Note for people running the container locally on their PC ###
