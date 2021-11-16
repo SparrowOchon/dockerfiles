@@ -1,9 +1,10 @@
 # IN application vars
 APP_URL=http://in.localhost:8003
 APP_KEY=<insert your generated key in here>
-APP_DEBUG=true
+APP_DEBUG=false
 REQUIRE_HTTPS=false
 PHANTOMJS_PDF_GENERATION=false
+PHANTOM_JS_PATH=/usr/bin/phantomjs
 PDF_GENERATOR=snappdf
 
 QUEUE_CONNECTION=database
